@@ -1,0 +1,28 @@
+{
+  "name": "notedrop-backend-users-microservice",
+  "version": "1.0.0",
+  "description": "This Package contains code for notedrop users microservice",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notedrophq/notedrop-backend-users.git"
+  },
+  "author": "Notedrop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notedrophq/notedrop-backend-users/issues"
+  },
+  "homepage": "https://github.com/notedrophq/notedrop-backend-users#readme",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.1",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "tsx": "^4.19.2"
+  }
+}
